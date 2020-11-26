@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://www.window-swap.com/static/media/homebg.bdedf07b.gif);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  height: 100px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Recoleta';
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.mylovelydiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 40px;
+}
+
+.windowButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(245, 241, 227);
+  width: 500px;
+  height: 40px;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  text-decoration:none;
+  font-family:'Recoleta';
+  font-weight:300;
+  color:#FFFFFF;
+  background-color: transparent;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
 }
